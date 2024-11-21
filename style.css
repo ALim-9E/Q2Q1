@@ -1,0 +1,56 @@
+body {
+	background-image: url("intramuros.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-blend-mode: overlay;
+	background-attachment: scroll;
+	font-family: monospace;
+}
+
+.container {
+	background-color: #795039;
+	border-radius: 10px;
+}
+
+.mx-auto {
+	width: 10vw;
+	height: 10vw;
+	object-fit: cover;
+}
+
+table tr {
+	color: #ffecce;
+	text-align: center;
+}
+
+tr a {
+	text-decoration: none;
+	color: #ffecce;
+}
+
+tr a:hover {
+	text-decoration: none;
+	color: #ffecce;
+}
+
+p a {
+	text-decoration: none;
+	color: floralwhite;
+}
+
+p a:hover {
+	text-decoration: none;
+	color: floralwhite;
+}
+
+
+img:hover {
+	transform:scale(1.07);
+	transition: 3.0 secs;
+}
+
+h1 {
+	text-align: center;
+	color: #ffecce;
+}
